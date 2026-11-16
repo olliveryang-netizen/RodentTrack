@@ -139,4 +139,4 @@ python mouse_tracker.py --lang en analyze 视频.mp4 -c nor.json   # 英文输�
 
 ## 许可
 
-[MIT](LICENSE) © 2026 Yuheng Yang（楊 宇恒），山口大学大学院医学系研究科 生理学讲座。
+[MIT](LICENSE) © 2026 Yuheng Yang（楊 宇恒，[ORCID 0009-0006-4374-2030](https://orcid.org/0009-0006-4374-2030)），山口大学大学院医学系研究科 生理学讲座。
