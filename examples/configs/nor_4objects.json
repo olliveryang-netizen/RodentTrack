@@ -1,0 +1,110 @@
+{
+  "arena": {
+    "points": [
+      [
+        80.0,
+        40.0
+      ],
+      [
+        560.0,
+        45.0
+      ],
+      [
+        580.0,
+        450.0
+      ],
+      [
+        60.0,
+        445.0
+      ]
+    ],
+    "width_cm": 40.0,
+    "height_cm": 40.0
+  },
+  "zones": [
+    {
+      "name": "A",
+      "type": "object",
+      "shape": "circle",
+      "center": [
+        197.736083984375,
+        136.5435791015625
+      ],
+      "radius": 30.0,
+      "interaction_cm": 2.0
+    },
+    {
+      "name": "B",
+      "type": "object",
+      "shape": "circle",
+      "center": [
+        442.4419250488281,
+        139.0464630126953
+      ],
+      "radius": 30.0,
+      "interaction_cm": 2.0
+    },
+    {
+      "name": "C",
+      "type": "object",
+      "shape": "circle",
+      "center": [
+        192.74949645996094,
+        338.8004150390625
+      ],
+      "radius": 30.0,
+      "interaction_cm": 2.0
+    },
+    {
+      "name": "D",
+      "type": "object",
+      "shape": "circle",
+      "center": [
+        447.4433288574219,
+        341.30352783203125
+      ],
+      "radius": 30.0,
+      "interaction_cm": 2.0
+    }
+  ],
+  "exclude": [],
+  "comparisons": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "B",
+      "D"
+    ]
+  ],
+  "detection": {
+    "polarity": "bright",
+    "threshold": 30,
+    "blur": 5,
+    "open_kernel": 5,
+    "close_kernel": 5,
+    "min_area_cm2": 2.0,
+    "max_area_cm2": 60.0,
+    "clahe": false,
+    "bg_frames": 50,
+    "exclude_cages": true,
+    "body_open_cm": 1.0,
+    "proc_width": 960
+  },
+  "analysis": {
+    "start_s": 0.0,
+    "end_s": null,
+    "smooth_frames": 5,
+    "max_gap_frames": 15,
+    "min_bout_s": 0.2,
+    "merge_gap_s": 0.2,
+    "center_ratio": 0.5,
+    "immobile_speed_cm_s": 2.0,
+    "immobile_min_s": 1.0,
+    "exclude_climbing": true,
+    "heading_deg": null,
+    "fps_override": null,
+    "bin_s": 60
+  }
+}

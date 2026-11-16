@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use RodentTrack in your research, please cite it as below."
+title: "RodentTrack: point-and-click video tracking for rodent open-field, object recognition and social interaction tests"
+type: software
+authors:
+  - family-names: Yang
+    given-names: Yuheng
+    affiliation: "Department of Physiology, Yamaguchi University Graduate School of Medicine"
+version: 1.0.0
+date-released: 2026-11-16
+license: MIT
+repository-code: "https://github.com/olliveryang/RodentTrack"
+keywords:
+  - behavioral neuroscience
+  - animal tracking
+  - novel object recognition
+  - social interaction
+  - open field
+  - OpenCV

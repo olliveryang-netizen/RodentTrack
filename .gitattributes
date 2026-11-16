@@ -1,0 +1,11 @@
+# keep line endings correct for every platform
+*.py      text eol=lf
+*.sh      text eol=lf
+*.command text eol=lf
+*.md      text eol=lf
+*.json    text eol=lf
+*.yml     text eol=lf
+*.bat     text eol=crlf
+*.png     binary
+*.gif     binary
+*.mp4     binary
