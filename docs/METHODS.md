@@ -14,7 +14,7 @@
 
 ## Suggested Methods text
 
-> Behaviour was scored from top-view videos with RodentTrack v1.0.0 (https://github.com/olliveryang/RodentTrack), an open-source Python/OpenCV tool. The arena floor corners were marked to correct for camera perspective and convert positions to centimetres. The animal was detected in every frame by median-background subtraction and the body centre and nose were estimated from the animal’s silhouette. Object exploration was defined as the nose being within 2 cm of the object (3 cm of the wire cage) while the body centre was not on the object; bouts shorter than 0.2 s were discarded and bouts separated by less than 0.2 s were merged. The discrimination index was calculated as (novel − familiar) / (novel + familiar) exploration time. Detection rate exceeded 95 % in all analysed videos, and tracking was checked visually on the annotated output video. Videos were analysed with file names coded so that the experimenter was blind to group.
+> Behaviour was scored from top-view videos with RodentTrack v1.0.1 (https://doi.org/10.5281/zenodo.24279287), an open-source Python/OpenCV tool. The arena floor corners were marked to correct for camera perspective and convert positions to centimetres. The animal was detected in every frame by median-background subtraction and the body centre and nose were estimated from the animal’s silhouette. Object exploration was defined as the nose being within 2 cm of the object (3 cm of the wire cage) while the body centre was not on the object; bouts shorter than 0.2 s were discarded and bouts separated by less than 0.2 s were merged. The discrimination index was calculated as (novel − familiar) / (novel + familiar) exploration time. Detection rate exceeded 95 % in all analysed videos, and tracking was checked visually on the annotated output video. Videos were analysed with file names coded so that the experimenter was blind to group.
 
 Adjust the numbers to the settings you actually used (they are stored in each config file), report the detection rate you obtained, and keep the blinding sentence only if it is true for your study.
 
@@ -22,6 +22,6 @@ Adjust the numbers to the settings you actually used (they are stored in each co
 
 ## 中文：论文方法部分可参考的写法
 
-> 行为视频（俯拍）使用开源软件 RodentTrack v1.0.0（Python / OpenCV，https://github.com/olliveryang/RodentTrack）分析。在视频画面上标记场地底面四角，进行透视校正并将坐标换算为厘米。采用中位数背景相减法逐帧检测动物，并根据轮廓估计身体中心和鼻尖位置。物体探索定义为鼻尖位于物体外 2 cm（网笼外 3 cm）范围内且身体中心不在物体上；短于 0.2 s 的接触不计，间隔小于 0.2 s 的接触合并。辨别指数 = (新物体 − 熟悉物体) / (新物体 + 熟悉物体) 探索时间。所有视频的检测率均 > 95%，并通过标注视频目视核对追踪结果。
+> 行为视频（俯拍）使用开源软件 RodentTrack v1.0.1（Python / OpenCV，https://doi.org/10.5281/zenodo.24279287）分析。在视频画面上标记场地底面四角，进行透视校正并将坐标换算为厘米。采用中位数背景相减法逐帧检测动物，并根据轮廓估计身体中心和鼻尖位置。物体探索定义为鼻尖位于物体外 2 cm（网笼外 3 cm）范围内且身体中心不在物体上；短于 0.2 s 的接触不计，间隔小于 0.2 s 的接触合并。辨别指数 = (新物体 − 熟悉物体) / (新物体 + 熟悉物体) 探索时间。所有视频的检测率均 > 95%，并通过标注视频目视核对追踪结果。
 
 请按实际使用的参数（保存在配置文件里）修改数字，写上实际得到的检测率；盲法那句只有在你的实验确实做到时再写。

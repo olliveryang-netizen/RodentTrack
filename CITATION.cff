@@ -6,10 +6,15 @@ authors:
   - family-names: Yang
     given-names: Yuheng
     affiliation: "Department of Physiology, Yamaguchi University Graduate School of Medicine"
-version: 1.0.0
+version: 1.0.1
+doi: 10.5281/zenodo.24279287
 date-released: 2026-11-16
 license: MIT
-repository-code: "https://github.com/olliveryang/RodentTrack"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24279287
+    description: Zenodo archive of RodentTrack
+repository-code: "https://github.com/olliveryang-netizen/RodentTrack"
 keywords:
   - behavioral neuroscience
   - animal tracking
