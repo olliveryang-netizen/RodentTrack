@@ -139,4 +139,4 @@ Bug reports, new task templates and translations are welcome — see [CONTRIBUTI
 
 ## License
 
-[MIT](LICENSE) © 2026 Yuheng Yang, Department of Physiology, Yamaguchi University Graduate School of Medicine.
+[MIT](LICENSE) © 2026 Yuheng Yang ([ORCID 0009-0006-4374-2030](https://orcid.org/0009-0006-4374-2030)), Department of Physiology, Yamaguchi University Graduate School of Medicine.
