@@ -16,7 +16,7 @@ Please **do not upload unpublished experimental videos**. One frame or the `*_tr
 ## Changing the code / 修改代码
 
 ```bash
-git clone https://github.com/olliveryang/RodentTrack.git
+git clone https://github.com/olliveryang-netizen/RodentTrack.git
 cd RodentTrack
 python -m venv .venv && . .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements-dev.txt

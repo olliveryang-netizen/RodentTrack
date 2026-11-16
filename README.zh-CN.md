@@ -8,11 +8,12 @@
 
 在视频上拖框画出场地和物体，点一下，就能得到每个视频的接触时间、接触次数、首次接触潜伏期、辨别指数、运动轨迹和热图。
 
-[![tests](https://github.com/olliveryang/RodentTrack/actions/workflows/ci.yml/badge.svg)](https://github.com/olliveryang/RodentTrack/actions/workflows/ci.yml)
+[![tests](https://github.com/olliveryang-netizen/RodentTrack/actions/workflows/ci.yml/badge.svg)](https://github.com/olliveryang-netizen/RodentTrack/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![Platforms](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 ![Languages](https://img.shields.io/badge/%E7%95%8C%E9%9D%A2-%E4%B8%AD%E6%96%87%20%7C%20English-orange.svg)
+[![DOI](https://zenodo.org/badge/1459879116.svg)](https://doi.org/10.5281/zenodo.24279287)
 
 [English](README.md) · **中文** · [使用说明](docs/USER_GUIDE.zh-CN.md) · [论文方法部分写法](docs/METHODS.md#中文论文方法部分可参考的写法)
 
@@ -64,7 +65,7 @@
 **2. 下载本软件**：点页面上绿色的 **Code** 按钮 → **Download ZIP** → 解压。或者：
 
 ```bash
-git clone https://github.com/olliveryang/RodentTrack.git
+git clone https://github.com/olliveryang-netizen/RodentTrack.git
 ```
 
 **3. 双击启动文件** —— 第一次会自动把组件装进软件文件夹里的 `.venv`（约 1–3 分钟）：

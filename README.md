@@ -8,11 +8,12 @@
 
 Draw the arena and objects with the mouse, click once, and get exploration time, bouts, first-contact latency, discrimination index, trajectory and heat map for every video.
 
-[![tests](https://github.com/olliveryang/RodentTrack/actions/workflows/ci.yml/badge.svg)](https://github.com/olliveryang/RodentTrack/actions/workflows/ci.yml)
+[![tests](https://github.com/olliveryang-netizen/RodentTrack/actions/workflows/ci.yml/badge.svg)](https://github.com/olliveryang-netizen/RodentTrack/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![Platforms](https://img.shields.io/badge/Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20%E4%B8%AD%E6%96%87-orange.svg)
+[![DOI](https://zenodo.org/badge/1459879116.svg)](https://doi.org/10.5281/zenodo.24279287)
 
 **English** · [中文说明](README.zh-CN.md) · [User guide](docs/USER_GUIDE.md) · [Methods text for papers](docs/METHODS.md)
 
@@ -64,7 +65,7 @@ Scoring object exploration with a stopwatch takes hours and differs between scor
 **2. Download** this repository: green **Code** button → **Download ZIP** → unzip. Or:
 
 ```bash
-git clone https://github.com/olliveryang/RodentTrack.git
+git clone https://github.com/olliveryang-netizen/RodentTrack.git
 ```
 
 **3. Double-click the launcher** — the first start installs the packages into a private `.venv` folder (1–3 min):
